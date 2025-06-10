@@ -10,6 +10,9 @@ export default function Home() {
         <Button asChild className="w-fit" variant="outline" size="sm">
           <Link href="/weather">Weather</Link>
         </Button>
+        <Button asChild className="w-fit" variant="outline" size="sm">
+          <Link href="/backoffice">Backoffice</Link>
+        </Button>
       </div>
     </div>
   );
